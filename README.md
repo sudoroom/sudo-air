@@ -1,10 +1,22 @@
 # Sudo Air: Air Quality Monitoring Network in the Bary Area
 
-![Air Quality Data Dashboard]()
+## [Air Quality Data Dashboard](https://unixjazz.crc.nd.edu/grafana/public-dashboards/1de305b9d07041d5874dd02ff67bad89)
 
 # Description
 
-This project establishes up the data processing infrastructure.
+## Background
+
+One of the Sudo Room members, LF, conducted air quality research in Utqiaġvik, Alaska—the northernmost city in the state. During summers, dust from motorized vehicles and other factors create significant air quality challenges for residents.
+
+After the research project concluded, LF brought the equipment to Sudo Room and led a workshop during Radio Wednesdays. Members learned about the air quality nodes and reassembled them from scratch, then deployed them throughout the Bay Area.
+
+These nodes have an extended operational lifespan since the Notecards and LTE modules consume minimal data. For more details, see the [Sudo Room Workshop Readme](https://gitlab.com/uva-arc/env-sense-workshop/-/blob/main/sensor-kits/bigdot-pm/workshop.md?ref_type=heads).
+
+The workshop exemplified the intersection of engineering, environmental science, and citizen science.
+
+> "WE WANT LAND, BREAD, HOUSING, EDUCATION, CLOTHING, JUSTICE, PEACE AND PEOPLE'S COMMUNITY CONTROL OF MODERN TECHNOLOGY." — The Black Panther Party
+
+
 
 Technologies and Services used:
 
@@ -17,11 +29,20 @@ Technologies and Services used:
 
 # Air Quality Node Diagram
 
+[Firmware Repository](https://gitlab.com/uva-arc/env-sense-workshop/-/tree/main/sensor-kits/bigdot-pm?ref_type=heads)
+
 ![Hardware Diagram](hardware-diagram.png)
 
 ## Parts
 
-- TODO: Add parts here.
+- [1x Big Dot v2](https://github.com/unixjazz/bigdot)
+- [1x Notecard v2.2 + Notecarrier X](https://blues.com/products/notecard/notecard-cell-wifi/)
+- [1x Plantower PMS7003](https://aqicn.org/air/sensor/spec/pms7003-english-v2.5.pdf)
+- 1x PMS-to-dupont adapter
+- 1x MOSFET switch
+- 1x Y cable
+- 7x Female-Male DuPont cables
+- 2x Female-Female DuPont cable
 
 # Data Infrastructure Architecture
 
