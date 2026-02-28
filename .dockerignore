@@ -1,0 +1,7 @@
+mosquitto/
+influxdb/
+.env
+.git/
+__pycache__/
+*.pyc
+.venv/
