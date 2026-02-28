@@ -17,7 +17,6 @@ The workshop exemplified the intersection of engineering, environmental science,
 > "WE WANT LAND, BREAD, HOUSING, EDUCATION, CLOTHING, JUSTICE, PEACE AND PEOPLE'S COMMUNITY CONTROL OF MODERN TECHNOLOGY." — The Black Panther Party
 
 
-
 Technologies and Services used:
 
 | Technology | Purpose |
@@ -26,6 +25,10 @@ Technologies and Services used:
 | **InfluxDB** | Time-series database for storing and querying air quality metrics (PM2.5, PM10, voltage, etc.) with high-performance data retention |
 | **Notehub** | Cloud service that aggregates sensor data from distributed nodes and provides APIs for data access and management |
 | **Docker** | Containerization platform for deploying consistent, scalable data processing services across environments |
+
+# Deployment
+
+For deployment instructions please see the [Deployment Instructions](deployment.md)
 
 # Air Quality Node Diagram
 
