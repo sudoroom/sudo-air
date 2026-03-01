@@ -28,13 +28,14 @@ Technologies and Services used:
 
 # Deployment
 
-For deployment instructions please see the [Deployment Instructions](deployment.md)
+For deployment instructions please see the [Deployment Instructions](docs/deployment.md)
 
-# Air Quality Node Diagram
+# Hardware
 
 [Firmware Repository](https://gitlab.com/uva-arc/env-sense-workshop/-/tree/main/sensor-kits/bigdot-pm?ref_type=heads)
 
-![Hardware Diagram](hardware-diagram.png)
+![Hardware Diagram](figures/hardware-diagram.png){: style="max-width: 600px;" }
+
 
 ## Parts
 
@@ -47,6 +48,12 @@ For deployment instructions please see the [Deployment Instructions](deployment.
 - 7x Female-Male DuPont cables
 - 2x Female-Female DuPont cable
 
+![hardware parts](figures/hardware_parts.jpg)
+
+## Hardware Put Together without the Cover
+
+![hardware put together](figures/hardware_put_together_no_shell.jpg)
+
 # Data Infrastructure Architecture
 
 The system architecture follows this data flow:
@@ -57,7 +64,7 @@ The system architecture follows this data flow:
 4. **Visualization**: InfluxDB serves as the data source for a Grafana dashboard hosted on a university server
 5. **Exposure**: Cloudflare Tunnels expose both the local services and Grafana dashboard to external access
 
-![Infrastructure Diagram](sudo-air-infrastructure.png)
+![Infrastructure Diagram](figures/sudo-air-infrastructure.png){: style="max-width: 600px;" }
 
 ## Environment Variables
 
