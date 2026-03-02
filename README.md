@@ -6,7 +6,7 @@
 
 ## Background
 
-One of the Sudo Room members, LF, conducted air quality research in Utqiaġvik, Alaska—the northernmost city in the state. During summers, dust from motorized vehicles and other factors create significant air quality challenges for residents.
+One of the Sudo Room members, LF, conducted air quality research in Utqiaġvik, Alaska—the northernmost city in the state. During summers, dust from motorized vehicles and other factors create significant air quality challenges for residents. You can read more about that research here: [NNA Track 1: Understanding the Changing Natural-Built Landscape in an Arctic Community: An integrated sensor network in Utqiagvik, Alaska](https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2022639&HistoricalAwards=false)
 
 After the research project concluded, LF brought the equipment to Sudo Room and led a workshop during Radio Wednesdays. Members learned about the air quality nodes and reassembled them from scratch, then deployed them throughout the Bay Area.
 
